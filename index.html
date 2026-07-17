@@ -1,0 +1,6 @@
+<!doctype html>
+<html lang="zh-CN"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>今天只做一件事</title><link rel="stylesheet" href="styles.css"></head>
+<body><main class="shell"><p class="eyebrow">ONE SMALL THING</p><h1>今天只做一件事</h1><p class="intro">把最重要的那件事留下，其他的先放过自己。</p>
+<section class="panel"><label for="task">今天最想完成什么？</label><div class="task-row"><input id="task" maxlength="60" placeholder="例如：把个人主页的首屏做完"><button id="save">就定这件</button></div>
+<fieldset><legend>现在的心情</legend><label><input type="radio" name="mood" value="calm" checked> 🌿 平静</label><label><input type="radio" name="mood" value="energy"> ⚡ 有劲</label><label><input type="radio" name="mood" value="tired"> 🌙 有点累</label></fieldset></section>
+<section id="today" class="today" hidden><span>今天的一件事</span><strong id="today-task"></strong><button id="done">我做完了 ✓</button></section><p id="message" class="message" role="status"></p></main><script src="app.js"></script></body></html>
